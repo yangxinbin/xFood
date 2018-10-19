@@ -1,0 +1,30 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 26
+    buildToolsVersion '26.0.2'
+
+    defaultConfig {
+        applicationId "com.oxbix.xfood"
+        minSdkVersion 14
+        targetSdkVersion 26
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled true
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-project.txt'
+        }
+    }
+}
+
+dependencies {
+    compile 'com.google.code.gson:gson:2.2.4'
+    compile files('libs/android-async-http-1.4.5.jar')
+    compile files('libs/universal-image-loader-1.9.2.jar')
+    compile 'com.android.support:support-v4:26.1.0'
+    implementation project(':androidhorizontallistview')
+    compile 'org.xutils:xutils:3.3.36'
+    implementation project(':library')
+    implementation files('libs/httpcore-4.4.10.jar')
+}

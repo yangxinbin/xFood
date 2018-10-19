@@ -1,0 +1,239 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:id="@+id/rela_food_title"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:background="@drawable/bg_food_title" >
+
+        <ImageButton
+            android:id="@+id/btn_back"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="10dp"
+            android:background="@color/transparent"
+            android:scaleType="fitXY"
+            android:src="@drawable/back_btn_bg_selector" />
+
+        <ImageButton
+            android:id="@+id/btn_check_out"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="40dp"
+            android:layout_toRightOf="@+id/btn_back"
+            android:background="@drawable/icon_pay_now"
+            android:scaleType="fitXY" />
+
+        <ToggleButton
+            android:id="@+id/tb_language_food_detail"
+            android:layout_width="45dp"
+            android:layout_height="45dp"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="176dp"
+            android:background="@drawable/icon_language_chinese"
+            android:checked="false"
+            android:textOff=""
+            android:textOn="" />
+
+        <ImageButton
+            android:id="@+id/btn_my_order"
+            android:layout_width="45dp"
+            android:layout_height="45dp"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="96dp"
+            android:background="@drawable/icon_my_order" />
+
+        <ImageButton
+            android:id="@+id/ib_shopping_cart_food_detail"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="10dp"
+            android:background="@color/transparent"
+            android:paddingRight="4dp"
+            android:src="@drawable/button_bg_shopping_cart_selector" />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center_horizontal"
+        android:orientation="horizontal" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@color/white"
+            android:orientation="vertical" >
+
+            <com.oxbix.xfood.widget.HackyViewPager
+                android:id="@+id/viewPager"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:padding="10dp" />
+
+            <com.meetme.android.horizontallistview.HorizontalListView
+                xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:widget="http://schemas.android.com/apk/res-auto"
+                android:id="@+id/lv_food_img_thumbnail"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="10dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginTop="10dp"
+                android:divider="@null"
+                android:visibility="gone" />
+        </LinearLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="2.7" >
+
+            <TextView
+                android:id="@+id/tv_food_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="20dp"
+                android:text="鱼香肉丝"
+                android:textColor="@color/black"
+                android:textSize="@dimen/textsize24"
+                android:textStyle="bold" />
+
+            <LinearLayout
+                android:id="@+id/layout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_marginBottom="30dp"
+                android:layout_marginTop="20dp"
+                android:gravity="center_horizontal"
+                android:orientation="vertical" >
+
+                <LinearLayout
+                    android:id="@+id/food_price_layout"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="10dp"
+               
+                    android:layout_marginTop="10dp"
+                    android:orientation="horizontal" >
+
+                    <TextView
+    
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/price"
+                        android:textColor="#333333"
+                        android:textSize="@dimen/textsize24"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/tv_price"
+                        android:layout_marginLeft="10dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="￥20.0"
+                        android:textColor="@color/dark_red"
+                        android:textSize="@dimen/textsize24"
+                        android:textStyle="bold" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical" >
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center_vertical|center_horizontal"
+                        android:orientation="horizontal" >
+
+                        <Button
+                            android:id="@+id/btn_minus"
+                            android:layout_width="60dp"
+                            android:layout_height="46dp"
+                            android:background="@drawable/button_red_selector"
+                            android:gravity="center"
+                            android:text="@string/minus"
+                            android:textColor="@color/white"
+                            android:textSize="@dimen/textsize30"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:id="@+id/tv_food_qty"
+                            android:layout_width="80dp"
+                            android:layout_height="52dp"
+                            android:layout_marginBottom="10dp"
+                            android:layout_marginLeft="20dp"
+                            android:layout_marginRight="20dp"
+                            android:layout_marginTop="10dp"
+                            android:background="@android:color/darker_gray"
+                            android:gravity="center"
+                            android:singleLine="true"
+                            android:text="1"
+                            android:textColor="@color/white"
+                            android:textSize="@dimen/textsize24" />
+
+                        <Button
+                            android:id="@+id/btn_plus"
+                            android:layout_width="60dp"
+                            android:layout_height="46dp"
+                            android:background="@drawable/button_green_selector"
+                            android:gravity="center"
+                            android:text="@string/plus"
+                            android:textColor="@color/white"
+                            android:textSize="@dimen/textsize30"
+                            android:textStyle="bold" />
+                    </LinearLayout>
+
+                    <Button
+                        android:id="@+id/btn_add_to_cart"
+                        android:layout_width="300dp"
+                        android:layout_height="56dp"
+                        android:layout_marginTop="20dp"
+                        android:background="@drawable/btn_bg_add_to_cart"
+                        android:text="@string/add_to_cart"
+                        android:textColor="@color/white"
+                        android:textSize="@dimen/textsize20"
+                        android:textStyle="bold" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <ScrollView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_above="@id/layout"
+                android:layout_below="@id/tv_food_name"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="10dp" >
+
+                <TextView
+                    android:id="@+id/tv_food_description"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="汉族名菜，鱼香肉丝是一道地道川菜。 主要是用糖和醋来进行调味，以酸甜味为主，可以和黑木耳、笋来进行搭配，做出的菜品色泽极佳。鱼香是川菜主要传统味型之一。成菜具有鱼香味，但其味并不来自鱼，而是泡红辣椒、葱、姜、蒜、糖、盐、酱油等调味品调制而成。此法源出于四川民间独具特色的烹鱼调味方法，而今已广泛用于川味的熟菜中，具有咸、酸、甜、辣、香、鲜和浓郁的葱、姜、蒜味的特色。汉族名菜，鱼香肉丝是一道地道川菜。 主要是用糖和醋来进行调味，以酸甜味为主，可以和黑木耳、笋来进行搭配，做出的菜品色泽极佳。鱼香是川菜主要传统味型之一。成菜具有鱼香味，但其味并不来自鱼，而是泡红辣椒、葱、姜、蒜、糖、盐、酱油等调味品调制而成。此法源出于四川民间独具特色的烹鱼调味方法，而今已广泛用于川味的熟菜中，具有咸、酸、甜、辣、香、鲜和浓郁的葱、姜、蒜味的特色。汉族名菜，鱼香肉丝是一道地道川菜。 主要是用糖和醋来进行调味，以酸甜味为主，可以和黑木耳、笋来进行搭配，做出的菜品色泽极佳。鱼香是川菜主要传统味型之一。成菜具有鱼香味，但其味并不来自鱼，而是泡红辣椒、葱、姜、蒜、糖、盐、酱油等调味品调制而成。此法源出于四川民间独具特色的烹鱼调味方法，而今已广泛用于川味的熟菜中，具有咸、酸、甜、辣、香、鲜和浓郁的葱、姜、蒜味的特色。"
+                    android:textColor="#333333"
+                    android:textSize="@dimen/textsize18"
+                    android:textStyle="bold" />
+            </ScrollView>
+        </RelativeLayout>
+    </LinearLayout>
+
+</LinearLayout>

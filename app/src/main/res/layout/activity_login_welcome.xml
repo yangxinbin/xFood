@@ -1,0 +1,39 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/img_welcome" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:gravity="center"
+        android:orientation="vertical" >
+
+        <ImageButton
+            android:id="@+id/ib_oxbix_icon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/login_icon"
+            android:scaleType="fitXY" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginBottom="20dp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/login_diliver_line" />
+
+        <Button
+            android:id="@+id/btn_checkin"
+            android:layout_width="200dp"
+            android:layout_height="52dp"
+            android:background="@drawable/button_bg_orange_border"
+            android:text="@string/checkin"
+            android:textColor="@color/bright_red"
+            android:textSize="@dimen/textsize20"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+</RelativeLayout>

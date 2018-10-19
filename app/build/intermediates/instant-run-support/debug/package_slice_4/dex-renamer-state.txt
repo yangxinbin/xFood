@@ -1,0 +1,4 @@
+#Thu Oct 18 11:40:32 CST 2018
+base.0=D\:\\workspace\\xFood\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\23
+path.0=classes.dex
+renamed.0=classes.dex

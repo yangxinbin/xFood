@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/order_list_bg" >
+
+    <RadioGroup
+        android:id="@+id/rd_orders"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <RadioButton
+            android:id="@+id/tv_tab_new_orders"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="1dp"
+            android:layout_marginRight="1dp"
+            android:layout_weight="1.0"
+            android:background="@drawable/order_item_bg_selector"
+            android:button="@null"
+            android:checked="true"
+            android:gravity="center"
+            android:padding="10dp"
+            android:text="@string/new_orders"
+            android:textColor="@drawable/button_order_item_textcolor_selector"
+            android:textSize="@dimen/textsize20" />
+
+        <RadioButton
+            android:id="@+id/tv_tab_running_orders"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="1dp"
+            android:layout_marginRight="1dp"
+            android:layout_weight="1.0"
+            android:background="@drawable/order_item_bg_selector"
+            android:button="@null"
+            android:gravity="center"
+            android:padding="10dp"
+            android:text="@string/running_orders"
+            android:textColor="@drawable/button_order_item_textcolor_selector"
+            android:textSize="@dimen/textsize20" />
+
+        <RadioButton
+            android:id="@+id/tv_tab_finished_orders"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="1dp"
+            android:layout_marginRight="1dp"
+            android:layout_weight="1.0"
+            android:background="@drawable/order_item_bg_selector"
+            android:button="@null"
+            android:gravity="center"
+            android:padding="10dp"
+            android:text="@string/finished_orders"
+            android:textColor="@drawable/button_order_item_textcolor_selector"
+            android:textSize="@dimen/textsize20" />
+    </RadioGroup>
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/view_pager"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/rela_bottom_item"
+        android:layout_below="@+id/rd_orders" />
+
+    <View
+        android:id="@+id/line"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_above="@+id/rela_bottom_item"
+        android:background="@drawable/login_diliver_line" />
+
+    <RelativeLayout
+        android:id="@+id/rela_bottom_item"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/btn_log_out"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:text="@string/log_out"
+            android:textColor="@color/black"
+            android:textSize="@dimen/textsize20" />
+
+        <Button
+            android:id="@+id/btn_show_by_group"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true"
+            android:text="@string/show_by_group"
+            android:visibility="gone"
+            android:textColor="@color/black"
+            android:textSize="@dimen/textsize20" />
+
+    </RelativeLayout>
+
+</RelativeLayout>

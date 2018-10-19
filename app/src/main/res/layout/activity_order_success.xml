@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <LinearLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/bright_red"
+        android:orientation="vertical" >
+
+        <ImageView
+            android:layout_width="230dp"
+            android:layout_height="230dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="40dp"
+            android:scaleType="fitXY"
+            android:src="@drawable/icon_order_success" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:gravity="center_horizontal"
+            android:text="@string/order_success"
+            android:textColor="@color/white"
+            android:textSize="@dimen/textsize78" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="40dp"
+            android:lines="2"
+            android:paddingLeft="200dp"
+            android:paddingRight="200dp"
+            android:text="@string/success_slogan"
+            android:textColor="@color/white"
+            android:textSize="@dimen/textsize24" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_alignParentBottom="true"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="80dp"
+        android:gravity="center_horizontal"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/btn_view_order"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/button_bg_white_border"
+            android:paddingBottom="10dp"
+            android:paddingTop="10dp"
+            android:text="@string/view_order"
+            android:textColor="@color/white"
+            android:textSize="@dimen/textsize30" />
+
+        <Button
+            android:id="@+id/btn_order_more"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="100dp"
+            android:background="@drawable/button_bg_white_border"
+            android:paddingBottom="10dp"
+            android:paddingTop="10dp"
+            android:text="@string/order_more"
+            android:textColor="@color/white"
+            android:textSize="@dimen/textsize30" />
+    </LinearLayout>
+
+</RelativeLayout>

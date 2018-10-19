@@ -1,0 +1,125 @@
+# Referenced at D:\workspace\xFood\app\src\main\res\layout\activity_kitchen.xml:0
+# Referenced at D:\workspace\xFood\app\src\main\res\layout\orders_manage_viewpager.xml:0
+-keep class android.support.v4.view.ViewPager { <init>(...); }
+
+# Referenced at C:\Users\admin\.gradle\caches\transforms-1\files-1.1\appcompat-v7-26.1.0.aar\3f1a21927953d9be612dc89621e2fb08\res\layout\abc_alert_dialog_material.xml:0
+-keep class android.support.v4.widget.NestedScrollView { <init>(...); }
+
+# Referenced at C:\Users\admin\.gradle\caches\transforms-1\files-1.1\appcompat-v7-26.1.0.aar\3f1a21927953d9be612dc89621e2fb08\res\layout\abc_alert_dialog_button_bar_material.xml:0
+# Referenced at C:\Users\admin\.gradle\caches\transforms-1\files-1.1\appcompat-v7-26.1.0.aar\3f1a21927953d9be612dc89621e2fb08\res\layout\abc_alert_dialog_material.xml:0
+# Referenced at C:\Users\admin\.gradle\caches\transforms-1\files-1.1\appcompat-v7-26.1.0.aar\3f1a21927953d9be612dc89621e2fb08\res\layout\abc_alert_dialog_title_material.xml:0
+-keep class android.support.v4.widget.Space { <init>(...); }
+
+# Referenced at C:\Users\admin\.gradle\caches\transforms-1\files-1.1\appcompat-v7-26.1.0.aar\3f1a21927953d9be612dc89621e2fb08\res\layout\abc_select_dialog_material.xml:0
+-keep class android.support.v7.app.AlertController$RecycleListView { <init>(...); }
+
+# Referenced at C:\Users\admin\.gradle\caches\transforms-1\files-1.1\appcompat-v7-26.1.0.aar\3f1a21927953d9be612dc89621e2fb08\res\layout\abc_action_menu_item_layout.xml:0
+-keep class android.support.v7.view.menu.ActionMenuItemView { <init>(...); }
+
+# Referenced at C:\Users\admin\.gradle\caches\transforms-1\files-1.1\appcompat-v7-26.1.0.aar\3f1a21927953d9be612dc89621e2fb08\res\layout\abc_expanded_menu_layout.xml:0
+-keep class android.support.v7.view.menu.ExpandedMenuView { <init>(...); }
+
+# Referenced at C:\Users\admin\.gradle\caches\transforms-1\files-1.1\appcompat-v7-26.1.0.aar\3f1a21927953d9be612dc89621e2fb08\res\layout\abc_list_menu_item_layout.xml:0
+# Referenced at C:\Users\admin\.gradle\caches\transforms-1\files-1.1\appcompat-v7-26.1.0.aar\3f1a21927953d9be612dc89621e2fb08\res\layout\abc_popup_menu_item_layout.xml:0
+-keep class android.support.v7.view.menu.ListMenuItemView { <init>(...); }
+
+# Referenced at C:\Users\admin\.gradle\caches\transforms-1\files-1.1\appcompat-v7-26.1.0.aar\3f1a21927953d9be612dc89621e2fb08\res\layout-v26\abc_screen_toolbar.xml:0
+# Referenced at C:\Users\admin\.gradle\caches\transforms-1\files-1.1\appcompat-v7-26.1.0.aar\3f1a21927953d9be612dc89621e2fb08\res\layout\abc_screen_toolbar.xml:0
+-keep class android.support.v7.widget.ActionBarContainer { <init>(...); }
+
+# Referenced at C:\Users\admin\.gradle\caches\transforms-1\files-1.1\appcompat-v7-26.1.0.aar\3f1a21927953d9be612dc89621e2fb08\res\layout-v26\abc_screen_toolbar.xml:0
+# Referenced at C:\Users\admin\.gradle\caches\transforms-1\files-1.1\appcompat-v7-26.1.0.aar\3f1a21927953d9be612dc89621e2fb08\res\layout\abc_action_mode_bar.xml:0
+# Referenced at C:\Users\admin\.gradle\caches\transforms-1\files-1.1\appcompat-v7-26.1.0.aar\3f1a21927953d9be612dc89621e2fb08\res\layout\abc_screen_toolbar.xml:0
+-keep class android.support.v7.widget.ActionBarContextView { <init>(...); }
+
+# Referenced at C:\Users\admin\.gradle\caches\transforms-1\files-1.1\appcompat-v7-26.1.0.aar\3f1a21927953d9be612dc89621e2fb08\res\layout-v26\abc_screen_toolbar.xml:0
+# Referenced at C:\Users\admin\.gradle\caches\transforms-1\files-1.1\appcompat-v7-26.1.0.aar\3f1a21927953d9be612dc89621e2fb08\res\layout\abc_screen_toolbar.xml:0
+-keep class android.support.v7.widget.ActionBarOverlayLayout { <init>(...); }
+
+# Referenced at C:\Users\admin\.gradle\caches\transforms-1\files-1.1\appcompat-v7-26.1.0.aar\3f1a21927953d9be612dc89621e2fb08\res\layout\abc_action_menu_layout.xml:0
+-keep class android.support.v7.widget.ActionMenuView { <init>(...); }
+
+# Referenced at C:\Users\admin\.gradle\caches\transforms-1\files-1.1\appcompat-v7-26.1.0.aar\3f1a21927953d9be612dc89621e2fb08\res\layout\abc_activity_chooser_view.xml:0
+-keep class android.support.v7.widget.ActivityChooserView$InnerLayout { <init>(...); }
+
+# Referenced at C:\Users\admin\.gradle\caches\transforms-1\files-1.1\appcompat-v7-26.1.0.aar\3f1a21927953d9be612dc89621e2fb08\res\layout\abc_alert_dialog_material.xml:0
+-keep class android.support.v7.widget.AlertDialogLayout { <init>(...); }
+
+# Referenced at C:\Users\admin\.gradle\caches\transforms-1\files-1.1\appcompat-v7-26.1.0.aar\3f1a21927953d9be612dc89621e2fb08\res\layout\abc_alert_dialog_button_bar_material.xml:0
+-keep class android.support.v7.widget.ButtonBarLayout { <init>(...); }
+
+# Referenced at C:\Users\admin\.gradle\caches\transforms-1\files-1.1\appcompat-v7-26.1.0.aar\3f1a21927953d9be612dc89621e2fb08\res\layout\abc_screen_content_include.xml:0
+-keep class android.support.v7.widget.ContentFrameLayout { <init>(...); }
+
+# Referenced at C:\Users\admin\.gradle\caches\transforms-1\files-1.1\appcompat-v7-26.1.0.aar\3f1a21927953d9be612dc89621e2fb08\res\layout\abc_alert_dialog_title_material.xml:0
+-keep class android.support.v7.widget.DialogTitle { <init>(...); }
+
+# Referenced at C:\Users\admin\.gradle\caches\transforms-1\files-1.1\appcompat-v7-26.1.0.aar\3f1a21927953d9be612dc89621e2fb08\res\layout\abc_screen_simple_overlay_action_mode.xml:0
+-keep class android.support.v7.widget.FitWindowsFrameLayout { <init>(...); }
+
+# Referenced at C:\Users\admin\.gradle\caches\transforms-1\files-1.1\appcompat-v7-26.1.0.aar\3f1a21927953d9be612dc89621e2fb08\res\layout\abc_dialog_title_material.xml:0
+# Referenced at C:\Users\admin\.gradle\caches\transforms-1\files-1.1\appcompat-v7-26.1.0.aar\3f1a21927953d9be612dc89621e2fb08\res\layout\abc_screen_simple.xml:0
+-keep class android.support.v7.widget.FitWindowsLinearLayout { <init>(...); }
+
+# Referenced at C:\Users\admin\.gradle\caches\transforms-1\files-1.1\appcompat-v7-26.1.0.aar\3f1a21927953d9be612dc89621e2fb08\res\layout\abc_search_view.xml:0
+-keep class android.support.v7.widget.SearchView$SearchAutoComplete { <init>(...); }
+
+# Referenced at C:\Users\admin\.gradle\caches\transforms-1\files-1.1\appcompat-v7-26.1.0.aar\3f1a21927953d9be612dc89621e2fb08\res\layout-v26\abc_screen_toolbar.xml:0
+# Referenced at C:\Users\admin\.gradle\caches\transforms-1\files-1.1\appcompat-v7-26.1.0.aar\3f1a21927953d9be612dc89621e2fb08\res\layout\abc_screen_toolbar.xml:0
+-keep class android.support.v7.widget.Toolbar { <init>(...); }
+
+# Referenced at C:\Users\admin\.gradle\caches\transforms-1\files-1.1\appcompat-v7-26.1.0.aar\3f1a21927953d9be612dc89621e2fb08\res\layout\abc_screen_simple.xml:0
+# Referenced at C:\Users\admin\.gradle\caches\transforms-1\files-1.1\appcompat-v7-26.1.0.aar\3f1a21927953d9be612dc89621e2fb08\res\layout\abc_screen_simple_overlay_action_mode.xml:0
+-keep class android.support.v7.widget.ViewStubCompat { <init>(...); }
+
+# Referenced at D:\workspace\xFood\library\build\intermediates\bundles\release\res\layout\slidingmenumain.xml:0
+-keep class com.jeremyfeinstein.slidingmenu.lib.SlidingMenu { <init>(...); }
+
+# Referenced at D:\workspace\xFood\app\src\main\res\layout\activity_food_detail.xml:0
+-keep class com.meetme.android.horizontallistview.HorizontalListView { <init>(...); }
+
+# Referenced at D:\workspace\xFood\app\build\intermediates\manifests\full\release\AndroidManifest.xml:19
+-keep class com.oxbix.xfood.MainActivity { <init>(...); }
+
+# Referenced at D:\workspace\xFood\app\build\intermediates\manifests\full\release\AndroidManifest.xml:13
+-keep class com.oxbix.xfood.SysApplication { <init>(...); }
+
+# Referenced at D:\workspace\xFood\app\build\intermediates\manifests\full\release\AndroidManifest.xml:66
+-keep class com.oxbix.xfood.ui.CheckOutActivtity { <init>(...); }
+
+# Referenced at D:\workspace\xFood\app\build\intermediates\manifests\full\release\AndroidManifest.xml:42
+-keep class com.oxbix.xfood.ui.FoodActivity { <init>(...); }
+
+# Referenced at D:\workspace\xFood\app\build\intermediates\manifests\full\release\AndroidManifest.xml:75
+-keep class com.oxbix.xfood.ui.GradeActivtity { <init>(...); }
+
+# Referenced at D:\workspace\xFood\app\build\intermediates\manifests\full\release\AndroidManifest.xml:70
+-keep class com.oxbix.xfood.ui.KitchenActivity { <init>(...); }
+
+# Referenced at D:\workspace\xFood\app\build\intermediates\manifests\full\release\AndroidManifest.xml:34
+-keep class com.oxbix.xfood.ui.LoginActivity { <init>(...); }
+
+# Referenced at D:\workspace\xFood\app\build\intermediates\manifests\full\release\AndroidManifest.xml:58
+-keep class com.oxbix.xfood.ui.MyOrderActivity { <init>(...); }
+
+# Referenced at D:\workspace\xFood\app\build\intermediates\manifests\full\release\AndroidManifest.xml:46
+-keep class com.oxbix.xfood.ui.OrderCheckOutActivity { <init>(...); }
+
+# Referenced at D:\workspace\xFood\app\build\intermediates\manifests\full\release\AndroidManifest.xml:50
+-keep class com.oxbix.xfood.ui.OrderListActivtity { <init>(...); }
+
+# Referenced at D:\workspace\xFood\app\build\intermediates\manifests\full\release\AndroidManifest.xml:62
+-keep class com.oxbix.xfood.ui.OrderSuccessActivtity { <init>(...); }
+
+# Referenced at D:\workspace\xFood\app\build\intermediates\manifests\full\release\AndroidManifest.xml:38
+-keep class com.oxbix.xfood.ui.RestaurantSettingActivity { <init>(...); }
+
+# Referenced at D:\workspace\xFood\app\build\intermediates\manifests\full\release\AndroidManifest.xml:24
+-keep class com.oxbix.xfood.ui.SplashActivity { <init>(...); }
+
+# Referenced at D:\workspace\xFood\app\build\intermediates\manifests\full\release\AndroidManifest.xml:54
+-keep class com.oxbix.xfood.ui.WelcomeActivity { <init>(...); }
+
+# Referenced at D:\workspace\xFood\app\src\main\res\layout\activity_food_detail.xml:0
+-keep class com.oxbix.xfood.widget.HackyViewPager { <init>(...); }
+

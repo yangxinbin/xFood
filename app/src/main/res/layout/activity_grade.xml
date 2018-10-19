@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/bright_red"
+        android:gravity="center_horizontal"
+        android:orientation="vertical" >
+
+        <ImageView
+            android:layout_width="230dp"
+            android:layout_height="230dp"
+            android:layout_marginTop="40dp"
+            android:scaleType="fitXY"
+            android:src="@drawable/icon_order_success" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:gravity="center_horizontal"
+            android:text="@string/confirm_success"
+            android:textColor="@color/white"
+            android:textSize="@dimen/textsize40" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:gravity="center_horizontal"
+            android:text="@string/give_feedback"
+            android:textColor="@color/white"
+            android:textSize="@dimen/textsize40" />
+
+        <RatingBar
+            style="@android:style/Widget.RatingBar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp" 
+            android:numStars="5" />
+
+        <EditText
+            android:background="@drawable/edittext_bg_grade"
+            android:layout_width="500dp"
+            android:padding="5dp"
+            android:layout_height="100dp"
+            android:layout_marginTop="10dp"
+            android:gravity="top" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="40dp"
+        android:gravity="center_horizontal"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/btn_thanks"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/button_bg_white_border"
+            android:paddingBottom="10dp"
+            android:paddingTop="10dp"
+            android:text="@string/thank_you"
+            android:textColor="@color/white"
+            android:textSize="@dimen/textsize30" />
+    </LinearLayout>
+
+</RelativeLayout>
